@@ -32,3 +32,5 @@ end generate;
 
 
 signal dsf : std_logic_vector(11 downto 0);
+
+constant zero : std_logic := '1'; 
