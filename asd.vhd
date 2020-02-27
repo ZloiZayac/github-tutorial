@@ -18,3 +18,14 @@ begin
 
   end if;
 end process sync;
+
+<LABEL> : if (<condition>) generate
+	
+else generate
+
+end generate <LABEL>;
+
+
+identifier : for i in x to y generate
+	
+end generate;
