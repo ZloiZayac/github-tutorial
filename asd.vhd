@@ -29,3 +29,6 @@ end generate <LABEL>;
 identifier : for i in x to y generate
 	
 end generate;
+
+
+signal dsf : std_logic_vector(11 downto 0);
