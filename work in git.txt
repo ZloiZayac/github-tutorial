@@ -50,3 +50,5 @@ git push -u origin master
 
 клонирование проекта из гитхаба:
 git clone xxxxx 	-	xxxxx - url проекта из гита
+
+git pull	-	докачивает из гита обновления
