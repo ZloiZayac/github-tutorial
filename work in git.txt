@@ -31,3 +31,18 @@ git checkout xxx 	-	перейти на ветку xxx
 git checkout -b xxx 	-	создать и перейти на ветку xxx
 
 git merge xxx 	-	слияние ветки ххх с текущей веткой
+
+
+-----github-----
+
+…or create a new repository on the command line
+echo "# github-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ZloiZayac/github-tutorial.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ZloiZayac/github-tutorial.git
+git push -u origin master
