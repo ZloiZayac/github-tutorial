@@ -40,9 +40,13 @@ echo "# github-tutorial" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/ZloiZayac/github-tutorial.git
-git push -u origin master
+git remote add origin https://github.com/ZloiZayac/github-tutorial.git 	-	подключение к репозиторию гитхаба
+git push -u origin master 	-	загружаем закоммиченый проект на гитхаб
 
 …or push an existing repository from the command line
 git remote add origin https://github.com/ZloiZayac/github-tutorial.git
 git push -u origin master
+
+
+клонирование проекта из гитхаба:
+git clone xxxxx 	-	xxxxx - url проекта из гита
